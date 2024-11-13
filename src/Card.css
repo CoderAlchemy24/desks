@@ -1,0 +1,22 @@
+.card{
+    margin:5px;
+    display: inline;
+}
+ 
+.rotated {
+    transform: rotate(90deg);}
+
+.card_title{
+    text-align: center;
+    font-size: 1.0em;
+    margin: 4px;
+    
+}
+
+
+
+ 
+
+
+
+ 

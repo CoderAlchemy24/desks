@@ -1,0 +1,78 @@
+
+
+.meanings {
+    margin:3px;
+    padding:3px;
+   
+    width: 170px;
+    height: 175px;
+    background-color: aliceblue;
+    border: 1px solid cornflowerblue; 
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px lightblue;
+    color: black;
+    
+    text-align: center;
+    font-size: 0.85em;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   align-items: center; 
+    
+    overflow-y: auto;  
+    
+}
+
+.meanings h4{
+    text-align: center;
+}
+
+.meanings ul{
+    margin: 2px;
+    padding: 2px 5px;
+    list-style-type: disc;
+    text-align: left;
+   
+}
+
+.meanings li{
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+    font-size: 0.95em;
+    position: relative;
+}
+
+.meanings li:hover::after {
+    content: attr(data-index);
+    position: fixed;
+    top: 2%;
+    left: 70%;
+    transform: translateX(-50%);
+    background-color: rgb(6, 55, 92);
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    white-space: wrap;
+    z-index: 10;
+    opacity: 1;
+    visibility: visible;
+}
+
+.meanings li::after {
+    content: attr(data-index);
+    position: fixed;
+    top: 50%;
+    left: 95%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    white-space: nowrap;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s;
+}

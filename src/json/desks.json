@@ -1,0 +1,185 @@
+{ "desks":[
+       
+    {
+        "id": 1,
+        "numOfCards": 4,
+        "name" : "A Kereszt",
+        "koords" : 
+           [
+            {"top": 105, "left":30},
+            {"top": 105, "left":250},
+            {"top": 0, "left":140},
+            {"top": 210, "left":140}
+           ],
+        "kulcsszavak" : [
+             {"1":"Erről van szó"},
+             {"2":"Ne ezt tegye"},
+             {"3":"Ezt kell tennie"},
+             {"4":"Ide vezet, ez a cél"}]
+    },
+    {
+        "id": 2,
+        "numOfCards": 8,
+        "name" : "A Lemniszkáta",
+        "koords" : 
+           [
+            {"top": 110, "left":-20},
+            {"top": 0, "left":75},
+            {"top": 110, "left":195},
+            {"top": 225, "left":320},
+            
+            {"top": 110, "left":410},
+            {"top": 0, "left":320},
+            {"top": 110, "left":200, "z-index": 4},
+            {"top": 225, "left":75}
+           ],
+        "kulcsszavak":[
+            {"1":"A társ:bal-oldalt, a kérdező:jobb-oldalt. 1.card és 5.card: Az egymás ellen ható erők, a legnagyobb különbség a társ és a kérdező között"},
+            {"2":"A társ:bal-oldalt, a kérdező:jobb-oldalt. 2.card: Ami a társ célja"},
+            {"3":"A társ:bal-oldalt, a kérdező:jobb-oldalt. 3.card és 7.card: A találkozási pont, az egyetértés, a hasonlóság a társ és a kérdező között"},
+            {"4":"A társ:bal-oldalt, a kérdező:jobb-oldalt. A kérdező belső kényszerei"},
+            {"5":"A társ:bal-oldalt, a kérdező:jobb-oldalt. 1.card és 5.card: Az egymás ellen ható erők, a legnagyobb különbség a társ és a kérdező között"},
+            {"6":"A társ:bal-oldalt, a kérdező:jobb-oldalt. 6.card: Ami a kérdező célja"},
+            {"7":"A társ:bal-oldalt, a kérdező:jobb-oldalt. 3.card és 7.card: A találkozási pont, az egyetértés, a hasonlóság a társ és a kérdező között"},
+            {"8":"A társ:bal-oldalt, a kérdező:jobb-oldalt. A társ belső kényszerei"}
+        ]
+    },
+    {
+        "id": 3,
+        "numOfCards": 4,
+        "name" : "A Szerelmi Jóslat",
+        "koords" : 
+           [
+            {"top": 105, "left":30},
+            {"top": 0, "left":140},
+            {"top": 105, "left":250},
+            {"top": 210, "left":140}
+           ],
+        "kulcsszavak":[
+            {"1":"Erről van szó"},
+            {"2":"A kérdező belső mozgatórugói"},
+            {"3":"Így áll a kérdezőhöz a másik ember"},
+            {"4":"Ezt tanácsolja a Szerelmi Jóslat"}]
+    },
+    {
+        "id": 4,
+        "numOfCards": 4,
+        "name" : "A Tisztítótűz",
+        "koords" : 
+           [
+            {"top": 210, "left":140},
+            {"top": 0, "left":140},
+            {"top": 105, "left":250},
+            {"top": 105, "left":30}
+           ],
+        "kulcsszavak":[
+            {"1":"A szétolvadó torony: Ez áll lángokban. A hibás, merev, túlhaladott szerkezet vagy viselkedésminta"},
+             {"2":"Az Isten szeme: Ez váltotta ki az áttörést"},
+             {"3":"Abraxas a védőamulett: Ez véd és segít a zűrzavaros időkben"},
+             {"4":"A galamb: Itt találhatjuk meg a célt, a megoldást, a menekülést"}
+            ]
+        
+    },
+    {
+        "id": 5,
+        "numOfCards": 5,
+        "name" : "A Tervjáték",
+        "koords" : 
+           [
+            {"top": 140, "left":200},
+            {"top": 30, "left":90},
+            {"top": 30, "left":310},
+            {"top": 250, "left":310},
+            {"top": 250, "left":90}
+           ],
+        "kulcsszavak":[
+            {"1":"Erről van szó"},
+             {"2":"A kérdezőt tudattalanul hajtó erő"},
+             {"3":"Külső akadályok vagy megerősítések"},
+             {"4":"Így nem fog sikerülni"},
+             {"5":"Így fog sikerülni"}
+        ]
+    },
+    {
+        "id": 6,
+        "numOfCards": 10,
+        "name" : "A Kelta Kereszt",
+        "koords" : 
+           [
+            {"top": 180, "left":145},
+            {"top": 190, "left":135},
+            {"top": 10, "left":145},
+            {"top": 340, "left":145},
+            {"top": 180, "left":-5},
+
+            {"top": 180, "left":280},
+            {"top": 410, "left":400},
+            {"top": 260, "left":400},
+            {"top": 110, "left":400},
+            {"top": -40, "left":400}
+           
+           ],
+        "kulcsszavak" : [
+            {"1":"Erről van szó"},
+            {"2":"Ez egészíti ki"},
+            {"3":"Ezt ismerjük fel"},
+            {"4":"Ezt érezzük"},
+            {"5":"Ez vezetett ide"},
+            {"6":"Így folytatódik"},
+            {"7":"Így látja a kérdező"},
+            {"8":"Itt történik, így látja a többi ember"},
+            {"9":"A kérdező reményei és félelmei"},
+            {"10":"Ide vezet"}
+        ]
+        },
+    {
+        "id": 7,
+        "numOfCards": 9,
+        "name" : "A Főpapnő Titka",
+        "koords" : 
+           [
+            {"top": 130, "left":170},
+            {"top": 130, "left":215},
+            
+            {"top": -35, "left":190},
+            {"top": -20, "left":60},
+            {"top": -20, "left":315},
+            
+            {"top": 255, "left":40},
+            {"top": 255, "left":345},
+            {"top": 410, "left":195},
+            {"top": 270, "left":185}
+           ],
+        "kulcsszavak":[
+            {"1":"Alaptéma 1"},
+            {"2":"Alaptéma 2"},
+            {"3":"A telihold a legfontosabb hatóerő"},
+            {"4":"A növekvő Hold az erősődő hatást jelzi"},
+            {"5":"A fogyó Hold a gyengülő hatásra utal"},
+            {"6":"Ami sötétben van. Amit még nem érzékeltünk tudatosan"},
+            {"7":"Ami a fényben van. Amit már felismertünk, várunk és értékelünk is"},
+            {"8":"Ide vezet az utazás"},
+            {"9":"A Főpapnő titka. A Titkos Tudás kártyája: Hogyanok és miértek."}
+        ]
+    },
+    {
+      "id": 8,
+      "numOfCards": 4,
+      "name" : "A Vakfolt",
+      "koords" : 
+         [
+          {"top": 1, "left":150},
+          {"top": 1, "left":280},
+          {"top": 215, "left":150},
+          {"top": 215, "left":280}
+         ],
+      "kulcsszavak":[
+          {"1":"Egyértelmű identitás. Amit mindenki tud."},
+           {"2":"A vakfolt. Amit csak mások látnak"},
+           {"3":"Az árnyék, a rejtett oldal. Amit csak a kérdező tud"},
+           {"4":"A Nagy Ismeretlen"}
+           
+      ]
+  }
+    
+]}

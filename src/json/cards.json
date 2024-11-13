@@ -1,0 +1,969 @@
+ { "cards":[
+    {
+      "name": "A Bolond",
+      "number": "0",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m00.jpg",
+      "keywords": [
+          "kezdetek",
+          "szabadság", 
+          "hit", 
+          "tapasztalatlanság", 
+          "ártatlanság"
+      ] },
+    {
+      "name": "A Mágus",
+      "number": "1",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m01.jpg",
+      "keywords": [
+          "mesterhez illő erő",
+          "kreativitás", 
+          "meghatalmazás", 
+          "tevékenység",
+          "akció"
+      ]},
+    {
+      "name": "A Főpapnő",
+      "number": "2",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m02.jpg",
+      "keywords": [
+          "intuíció", 
+          "visszatükröződés", 
+          "tisztaság", 
+          "mély belső bölcsesség"
+      ]},
+    {
+      "name": "Az Uralkodónő",
+      "number": "3",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m03.jpg",
+      "keywords": [
+          "termékenység, növekedés", 
+          "termelékenység", 
+          "érettség", 
+          "kreatív fejlődési folyamatok"
+      ]},
+    {
+      "name": "Az Uralkodó",
+      "number": "4",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m04.jpg",
+      "keywords": [
+          "jogkör, felelősség", 
+          "megalapozás", 
+          "irány", 
+          "szerkezet"
+      ]},
+    {
+      "name": "A Főpap",
+      "number": "5",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m05.jpg",
+      "keywords": [
+          "iránymutatás", 
+          "tudás, ismeret", 
+          "egyenesség", 
+          "erkölcsi elvnek megfelelés", 
+          "hit"
+      ]},
+    {
+      "name": "A Szeretők",
+      "number": "6",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m06.jpg",
+      "keywords": [
+          "szerelem", 
+          "harmonia", 
+          "egység", 
+          "választás"
+      ] },
+    {
+      "name": "A Diadalszekér",
+      "number": "7",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m07.jpg",
+      "keywords": [
+          "haladás, fejlődés", 
+          "győzelem", 
+          "diadal", 
+          "siker"
+      ]},
+    {
+      "name": "Az Erő",
+      "number": "8",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m08.jpg",
+      "keywords": [
+          "lelkesedés", 
+          "életöröm", 
+          "életerő", 
+          "szenvedély", 
+          "vitalitás"
+      ] },
+    {
+      "name": "A Remete",
+      "number": "9",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m09.jpg",
+      "keywords": [
+          "magány", 
+          "tapasztalat", 
+          "nyugalom", 
+          "visszavonulás"
+      ]},
+    {
+      "name": "A Szerencsekerék",
+      "number": "10",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m10.jpg",
+      "keywords": [
+          "szerencse", 
+          "véletlen", 
+          "ciklusok", 
+          "karma", 
+          "sors", 
+          "forradalom"
+      ]},
+    {
+      "name": "Az Igazságszolgáltatás",
+      "number": "11",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m11.jpg",
+      "keywords": [
+          "egyensúly", 
+          "törvény", 
+          "méltányosság", 
+          "tárgyilagosság"
+      ]},
+    {
+      "name": "Az Akasztott Ember",
+      "number": "12",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m12.jpg",
+      "keywords": [
+          "felvilágosodás", 
+          "áldozat", 
+          "perspektíva", 
+          "felfüggesztés", 
+          "visszafordítások"
+      ]},
+    {
+      "name": "A Halál",
+      "number": "13",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m13.jpg",
+      "keywords": [
+          "befejeződés", 
+          "következtetés", 
+          "átmenet", 
+          "átjáró", 
+          "elindulás"
+      ]},
+    {
+      "name": "A Kiegyenltődés",
+      "number": "14",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m14.jpg",
+      "keywords": [
+          "keverés", 
+          "szintézis", 
+          "közvetítés", 
+          "kombináció", 
+          "összhang"
+      ] },
+    {
+      "name": "Az Ördög",
+      "number": "15",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m15.jpg",
+      "keywords": [
+          "árnyék", 
+          "materializmus", 
+          "rabság", 
+          "csalódás"
+      ]},
+    {
+      "name": "A Torony",
+      "number": "16",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m16.jpg",
+      "keywords": [
+          "bontás", 
+          "felfordulás", 
+          "dekonstrukció", 
+          "katasztrófa", 
+          "megsemmisítés"
+      ]},
+    {
+      "name": "A Csillag",
+      "number": "17",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m17.jpg",
+      "keywords": [
+          "remény", 
+          "optimizmus", 
+          "nyitottság", 
+          "bizonyosság", 
+          "hit, bizalom", 
+          "vágyakozás", 
+          "igazság"
+      ]},
+    {
+      "name": "A Hold",
+      "number": "18",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m18.jpg",
+      "keywords": [
+          "rejtély", 
+          "fantázia", 
+          "képzelet", 
+          "álmok", 
+          "bizonytalanság"
+      ] },
+    {
+      "name": "A Nap",
+      "number": "19",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m19.jpg",
+      "keywords": [
+          "öröm", 
+          "ragyogás", 
+          "érvényesítés", 
+          "figyelem", 
+          "energia"
+      ]},
+    {
+      "name": "A Végítélet",
+      "number": "20",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m20.jpg",
+      "keywords": [
+          "újjászületés", 
+          "megújítás", 
+          "feltámadás", 
+          "értékelés", 
+          "meghívás"
+      ]},
+    {
+      "name": "A Világ",
+      "number": "21",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m21.jpg",
+      "keywords": [
+          "teljesség", 
+          "integráció", 
+          "totalitás", 
+          "teljesség"
+      ]},
+    {
+      "name": "Kelyhek Ásza",
+      "number": "1",
+      "arcana": "Minor Arcana",
+      "suit": "Kelyhek",
+      "img": "c01.jpg",
+      "keywords": [
+          "intuició", 
+          "spiritualitás", 
+          "szeretet", 
+          "motiváció"
+      ]},
+    {
+      "name": "Kelyhek Kettes",
+      "number": "2",
+      "arcana": "Minor Arcana",
+      "suit": "Kelyhek",
+      "img": "c02.jpg",
+      "keywords": [
+          "unió", 
+          "vonzerő", 
+          "kombináció", 
+          "szeretet"
+      ]},
+    {
+      "name": "Kelyhek Hármas",
+      "number": "3",
+      "arcana": "Minor Arcana",
+      "suit": "Kelyhek",
+      "img": "c03.jpg",
+      "keywords": [
+          "ünneplés", 
+          "kifejezés", 
+          "közösség", 
+          "barátság"
+      ]},
+    {
+      "name": "Kelyhek Négyes",
+      "number": "4",
+      "arcana": "Minor Arcana",
+      "suit": "Kelyhek",
+      "img": "c04.jpg",
+      "keywords": [
+          "unalom", 
+          "kedvetlenség", 
+          "letargia", 
+          "stabilitás", 
+          "hálátlanság"
+      ]},
+    {
+      "name": "Kelyhek Ötös",
+      "number": "5",
+      "arcana": "Minor Arcana",
+      "suit": "Kelyhek",
+      "img": "c05.jpg",
+      "keywords": [
+          "veszteség", 
+          "kétségbeesés", 
+          "újraértékelés", 
+          "megbánás", 
+          "bizonytalanság", 
+          "bűnbánat"
+      ]},
+    {
+      "name": "Kelyhek Hatos",
+      "number": "6",
+      "arcana": "Minor Arcana",
+      "suit": "Kelyhek",
+      "img": "c06.jpg",
+      "keywords": [
+          "jótékonyság", 
+          "megosztás", 
+          "áldozat", 
+          "együttműködés", 
+          "méltányosság"
+      ]},
+    {
+      "name": "Kelyhek Hetes",
+      "number": "7",
+      "arcana": "Minor Arcana",
+      "suit": "Kelyhek",
+      "img": "c07.jpg",
+      "keywords": [
+          "képzelet", 
+          "álmok", 
+          "illuziók", 
+          "célok"
+      ] },
+    {
+      "name": "Kelyhek Nyolcas",
+      "number": "8",
+      "arcana": "Minor Arcana",
+      "suit": "Kelyhek",
+      "img": "c08.jpg",
+      "keywords": [
+          "vágyakozás", 
+          "elégedettlenség", 
+          "küldetés", 
+          "indulás", 
+          "visszavonás"
+      ]},
+    {
+      "name": "Kelyhek Kilences",
+      "number": "9",
+      "arcana": "Minor Arcana",
+      "suit": "Kelyhek",
+      "img": "c09.jpg",
+      "keywords": [
+          "elégedettség", 
+          "érzékiség", 
+          "luxus", 
+          "kényelem"
+      ]},
+    {
+      "name": "Kelyhek Tizes",
+      "number": "10",
+      "arcana": "Minor Arcana",
+      "suit": "Kelyhek",
+      "img": "c10.jpg",
+      "keywords": [
+          "öröm", 
+          "teljesítés", 
+          "elsöprő érzelem", 
+          "szédülés"
+      ]},
+    {
+      "name": "Kelyhek Apródja",
+      "number": "11",
+      "arcana": "Minor Arcana",
+      "suit": "Kelyhek",
+      "img": "c11.jpg",
+      "keywords": [
+          "lelkesedés", 
+          "első benyomások", 
+          "romantika", 
+          "felületesség"
+      ]},
+    {
+      "name": "Kelyhek Lovagja",
+      "number": "12",
+      "arcana": "Minor Arcana",
+      "suit": "Kelyhek",
+      "img": "c12.jpg", 
+      "keywords": [
+          "buzgalom", 
+          "buzgóság", 
+          "levertség", 
+          "megvilágítottság"
+      ]},
+    {
+      "name": "Kelyhek Királynője",
+      "number": "13",
+      "arcana": "Minor Arcana",
+      "suit": "Kelyhek",
+      "img": "c13.jpg",
+      "keywords": [
+          "belátás", 
+          "lelkiség", 
+          "együttérzés", 
+          "empátia", 
+          "ösztön"
+      ]},
+    {
+      "name": "Kelyhek Királya",
+      "number": "14",
+      "arcana": "Minor Arcana",
+      "suit": "Kelyhek",
+      "img": "c14.jpg",
+      "keywords": [
+          "bölcsesség", 
+          "diplomácia", 
+          "korlátozás", 
+          "nyugalom"
+      ]},
+    {
+      "name": "Kardok Ásza",
+      "number": "1",
+      "arcana": "Minor Arcana",
+      "suit": "Kardok",
+      "img": "s01.jpg",
+      "keywords": [
+          "logika", 
+          "tárgyilagosság", 
+          "értelem", 
+          "választás"
+      ]},
+    {
+      "name": "Kardok Kettes",
+      "number": "2",
+      "arcana": "Minor Arcana",
+      "suit": "Kardok",
+      "img": "s02.jpg",
+      "keywords": [
+          "tagadás", 
+          "vita", 
+          "zsákutca", 
+          "fegyverszünet"
+      ] },
+    {
+      "name": "Kardok Hármas",
+      "number": "3",
+      "arcana": "Minor Arcana",
+      "suit": "Kardok",
+      "img": "s03.jpg",
+      "keywords": [
+          "variancia", 
+          "különbség", 
+          "elégedtlenség", 
+          "szívpanaszok", 
+          "elutasítás"
+      ]},
+    {
+      "name": "Kardok Négyes",
+      "number": "4",
+      "arcana": "Minor Arcana",
+      "suit": "Kardok",
+      "img": "s04.jpg",
+      "keywords": [
+          "meditáció", 
+          "elmélkedés", 
+          "perspektíva", 
+          "gondolkodásmód"
+      ]},
+    {
+      "name": "Kardok Ötös",
+      "number": "5",
+      "arcana": "Minor Arcana",
+      "suit": "Kardok",
+      "img": "s05.jpg",
+      "keywords": [
+          "önzés", 
+          "ellenségeskedés", 
+          "irracionalitás", 
+          "önfenntartás"
+      ]},
+    {
+      "name": "Kardok Hatos",
+      "number": "6",
+      "arcana": "Minor Arcana",
+      "suit": "Kardok",
+      "img": "s06.jpg",
+      "keywords": [
+          "adaptáció", 
+          "kiigazítások", 
+          "tudomány", 
+          "utazási"
+      ]},
+    {
+      "name": "Kardok Hetes",
+      "number": "7",
+      "arcana": "Minor Arcana",
+      "suit": "Kardok",
+      "img": "s07.jpg",
+      "keywords": [
+          "tisztességtelenség", 
+          "vélelem", 
+          "alattomosság", 
+          "feltevés"
+      ]},
+    {
+      "name": "Kardok Nyolcas",
+      "number": "8",
+      "arcana": "Minor Arcana",
+      "suit": "Kardok",
+      "img": "s08.jpg",
+      "keywords": [
+          "korlátozás", 
+          "megszorítások", 
+          "bezárás", 
+          "tehetetlenség"
+      ]},
+    {
+      "name": "Kardok Kilences",
+      "number": "9",
+      "arcana": "Minor Arcana",
+      "suit": "Kardok",
+      "img": "s09.jpg",
+      "keywords": [
+          "bűntudat", 
+          "aggodalom", 
+          "zavarodottság", 
+          "következtetés"
+      ]},
+    {
+      "name": "Kardok Tizes",
+      "number": "10",
+      "arcana": "Minor Arcana",
+      "suit": "Kardok",
+      "img": "s10.jpg",
+      "keywords": [
+          "kimerültség", 
+          "rom", 
+          "katasztrófa", 
+          "kitartás", 
+          "megszálottság"
+      ]},
+    {
+      "name": "Kardok Apródja",
+      "number": "11",
+      "arcana": "Minor Arcana",
+      "suit": "Kardok",
+      "img": "s11.jpg",
+      "keywords": [
+          "diák", 
+          "tanonc", 
+          "ösztöndíj", 
+          "információ"
+      ]},
+    {
+      "name": "Kardok Lovagja",
+      "number": "12",
+      "arcana": "Minor Arcana",
+      "suit": "Kardok",
+      "img": "s12.jpg",
+      "keywords": [
+          "butaság", 
+          "intelligencia", 
+          "merészség", 
+          "vizsgálat"
+      ]},
+    {
+      "name": "Kardok Királynője",
+      "number": "13",
+      "arcana": "Minor Arcana",
+      "suit": "Kardok",
+      "img": "s13.jpg",
+      "keywords": [
+          "kegy", 
+          "készség", 
+          "ész", 
+          "báj", 
+          "alkalmasság"
+      ]},
+    {
+      "name": "Kardok Királya",
+      "number": "14",
+      "arcana": "Minor Arcana",
+      "suit": "Kardok",
+      "img": "s14.jpg",
+      "keywords": [
+          "zseni", 
+          "szakértelem", 
+          "döntés", 
+          "itélet"
+      ]},
+    {
+      "name": "Botok Ásza",
+      "number": "1",
+      "arcana": "Minor Arcana",
+      "suit": "Botok",
+      "img": "w01.jpg",
+      "keywords": [
+          "vágy", 
+          "ihlet", 
+          "látomás", 
+          "teremtés", 
+          "találmány"
+      ]},
+    {
+      "name": "Botok Kettes",
+      "number": "2",
+      "arcana": "Minor Arcana",
+      "suit": "Botok",
+      "img": "w02.jpg",
+      "keywords": [
+          "konfliktus", 
+          "döntés", 
+          "opció", 
+          "egyéniség"
+      ]},
+    {
+      "name": "Botok Hármas",
+      "number": "3",
+      "arcana": "Minor Arcana",
+      "suit": "Botok",
+      "img": "w03.jpg",
+      "keywords": [
+          "végrehajtás", 
+          "akció", 
+          "kutatás"
+      ]},
+    {
+      "name": "Botok Négyes",
+      "number": "4",
+      "arcana": "Minor Arcana",
+      "suit": "Botok",
+      "img": "w04.jpg",
+      "keywords": [
+          "ünneplés", 
+          "öröm", 
+          "közösség", 
+          "csapatmunka", 
+          "befejezés"
+      ]},
+    {
+      "name": "Botok Ötös",
+      "number": "5",
+      "arcana": "Minor Arcana",
+      "suit": "Botok",
+      "img": "w05.jpg",
+      "keywords": [
+          "konfrontáció", 
+          "megkülönböztetés", 
+          "objection", 
+          "konfliktus"
+      ]},
+    {
+      "name": "Botok Hatos",
+      "number": "6",
+      "arcana": "Minor Arcana",
+      "suit": "Botok",
+      "img": "w06.jpg",
+      "keywords": [
+          "győzelem", 
+          "teljesítés", 
+          "siker", 
+          "diadal"
+      ] },
+    {
+      "name": "Botok Hetes",
+      "number": "7",
+      "arcana": "Minor Arcana",
+      "suit": "Botok",
+      "img": "w07.jpg",
+      "keywords": [
+          "bátorság", 
+          "megoldás", 
+          "meghatározás"
+      ]},
+    {
+      "name": "Botok Nyolcas",
+      "number": "8",
+      "arcana": "Minor Arcana",
+      "suit": "Botok",
+      "img": "w08.jpg",
+      "keywords": [
+          "sebesség", 
+          "gyorsaság", 
+          "fogékonyság", 
+          "változás"
+      ]},
+    {
+      "name": "Botok Kilences",
+      "number": "9",
+      "arcana": "Minor Arcana",
+      "suit": "Botok",
+      "img": "w09.jpg",
+      "keywords": [
+         "szívósság",
+         "állhatatosság",
+         "kitartás",
+         "hűség",
+         "elengedés" 
+      ]},
+    {
+      "name": "Botok Tizes",
+      "number": "10",
+      "arcana": "Minor Arcana",
+      "suit": "Botok",
+      "img": "w10.jpg",
+      "keywords": [
+          "kimerültség", 
+          "ellenállás", 
+          "teher, súly", 
+          "elutasítás"
+      ] },
+    {
+      "name": "Botok Apródja",
+      "number": "11",
+      "arcana": "Minor Arcana",
+      "suit": "Botok",
+      "img": "w11.jpg",
+      "keywords": [
+          "lelkesedés",
+          "vágy, kívánság", 
+          "bizalom", 
+          "érvényesítés", 
+          "megerősítés"
+      ]},
+    {
+      "name": "Botok Lovagja",
+      "number": "12",
+      "arcana": "Minor Arcana",
+      "suit": "Botok",
+      "img": "w12.jpg", 
+      "keywords": [
+          "bátorság", 
+          "hősködés", 
+          "szenvedély", 
+          "meggyőzés", 
+          "érdekképviselet"
+      ]},
+    {
+      "name": "Botok Királynője",
+      "number": "13",
+      "arcana": "Minor Arcana",
+      "suit": "Botok",
+      "img": "w13.jpg",
+      "keywords": [
+          "figyelem",
+          "vonzalom",
+          "egyesülés",
+          "együttműködés"
+      ]},
+    {
+      "name": "Botok Királya",
+      "number": "14",
+      "arcana": "Minor Arcana",
+      "suit": "Botok",
+      "img": "w14.jpg",
+      "keywords": [
+          "kreativitás",
+          "találékonyság",
+          "eredmény",
+          "irány"
+      ]},
+    {
+      "name": "Érmék Ásza",
+      "number": "1",
+      "arcana": "Minor Arcana",
+      "suit": "Érmék",
+      "img": "p01.jpg", 
+      "keywords": [
+          "egészség",
+          "jólét",
+          "praktikusság",
+          "fogadás"
+      ]},
+    {
+      "name": "Érmék Kettes",
+      "number": "2",
+      "arcana": "Minor Arcana",
+      "suit": "Érmék",
+      "img": "p02.jpg", 
+      "keywords": [
+          "értékelés",
+          "döntés",
+          "költségvetés",
+          "diagnózis"
+      ]},
+    {
+      "name": "Érmék Hármas",
+      "number": "3",
+      "arcana": "Minor Arcana",
+      "suit": "Érmék",
+      "img": "p03.jpg",
+      "keywords": [
+          "kifejezés",
+          "termelés",
+          "munka",
+          "hozzájárulás"
+      ]},
+    {
+      "name": "Érmék Négyes",
+      "number": "4",
+      "arcana": "Minor Arcana",
+      "suit": "Érmék",
+      "img": "p04.jpg",
+      "keywords": [
+          "védelem",
+          "megőrzés",
+          "biztonság"
+            ]},
+    {
+      "name": "Érmék Ötös",
+      "number": "5",
+      "arcana": "Minor Arcana",
+      "suit": "Érmék",
+      "img": "p05.jpg",
+      "keywords": [
+          "szegénység",
+          "nélkülözés",
+          "igény",
+          "válság"
+      ]},
+    {
+      "name": "Érmék Hatos",
+      "number": "6",
+      "arcana": "Minor Arcana",
+      "suit": "Érmék",
+      "img": "p06.jpg",
+      "keywords": [
+          "jótékonyság",
+          "méltányosság",
+          "együttműködés",
+          "megosztás"
+      ]},
+    {
+      "name": "Érmék Hetes",
+      "number": "7",
+      "arcana": "Minor Arcana",
+      "suit": "Érmék",
+      "img": "p07.jpg",
+      "keywords": [
+          "értékelés",
+          "újraértékelés",
+          "tükrözés"
+      ]},
+    {
+      "name": "Érmék Nyolcas",
+      "number": "8",
+      "arcana": "Minor Arcana",
+      "suit": "Érmék",
+      "img": "p08.jpg",
+      "keywords": [
+          "erőfeszítés",
+          "munka szorgalom",
+          "készség"
+      ]},
+    {
+      "name": "Érmék Kilences",
+      "number": "9",
+      "arcana": "Minor Arcana",
+      "suit": "Érmék",
+      "img": "p09.jpg",
+      "keywords": [
+          "edzés",
+          "fegyelem",
+          "bizalom",
+          "elegendő"
+      ]},
+    {
+      "name": "Érmék Tizes",
+      "number": "10",
+      "arcana": "Minor Arcana",
+      "suit": "Érmék",
+      "img": "p10.jpg",
+	  "keywords": [
+          "jólét",
+          "bőség",
+          "beszerzés",
+          "mohóság"
+      ]},
+    {
+      "name": "Érmék Apródja",
+      "number": "11",
+      "arcana": "Minor Arcana",
+      "suit": "Érmék",
+      "img": "p11.jpg",
+      "keywords": [
+          "praktikusság",
+          "jólét",
+          "tanulás",
+          "növekedés",
+          "serdülőkor"
+      ]},
+    {
+      "name": "Érmék Lovagja",
+      "number": "12",
+      "arcana": "Minor Arcana",
+      "suit": "Érmék",
+      "img": "p12.jpg",
+      "keywords": [
+          "óvatosság",
+          "összpontosítás",
+          "praktikusság",
+          "találmány"
+      ]
+     },
+    {
+      "name": "Érmék Királynője",
+      "number": "13",
+      "arcana": "Minor Arcana",
+      "suit": "Érmék",
+      "img": "p13.jpg",
+      "keywords": [
+          "luxus",
+          "kényelem",
+          "leleményesség",
+          "nagyvonalúság",
+          "jólét"
+      ]
+     },
+    {
+      "name": "Érmék Királya",
+      "number": "14",
+      "arcana": "Minor Arcana",
+      "suit": "Érmék",
+      "img": "p14.jpg",
+      "keywords": [
+        "stabilitás",
+        "megbízhatóság",
+        "bizalom",
+        "beavatkozás"
+    ] 
+   }
+  ]
+}
