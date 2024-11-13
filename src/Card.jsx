@@ -41,8 +41,8 @@ const Card = ({card, desk, ind, isShown , onClick}) => {
                 (isShown ? card.name : ind+1)
                  : ''}</h4> 
           
-            <img src={isShown ? `./src/assets/cards/${card.img}` 
-                                       : './src/assets/greencardback.png'} 
+            <img src={isShown ? `cards/${card.img}` 
+                                       : 'backs/greencardback.png'} 
                onClick={onClick}
                alt={card ? card.name : 'Placeholder'} />
            
