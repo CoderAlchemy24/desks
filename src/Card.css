@@ -13,10 +13,15 @@
     
 }
 
-
-
- 
-
-
-
- 
+.fallback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 150px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: darkgray;
+}
