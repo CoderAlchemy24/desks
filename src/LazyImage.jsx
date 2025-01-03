@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from 'react';
 
 const LazyImage = ({ src, alt, onClick }) => {
-  const ImageComponent = lazy(() => import(src));
+  const ImageComponent = lazy(() => import('./ImageComponent'));
 
   return (
     <Suspense fallback={<div className="fallback">Loading...</div>}>

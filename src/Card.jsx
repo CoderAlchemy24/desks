@@ -1,5 +1,4 @@
 import React, { lazy, Suspense } from 'react';
-
 import './Card.css';
 
 const LazyImage = lazy(() => import('./LazyImage'));
