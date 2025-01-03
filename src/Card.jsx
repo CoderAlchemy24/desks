@@ -42,7 +42,7 @@ const Card = ({card, desk, ind, isShown , onClick}) => {
                 (isShown ? card.name : ind+1)
                  : ''}</h4> 
           
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<div className="fallback">Loading...</div>}>
               <LazyImage src={isShown ? `cards/${card.img}` 
                                        : 'backs/greencardback.png'} 
                          onClick={onClick}
