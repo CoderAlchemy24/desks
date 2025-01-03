@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 
 import './Card.css';
 
+const LazyImage = lazy(() => import('./LazyImage'));
 
 const Card = ({card, desk, ind, isShown , onClick}) => {
 
@@ -41,10 +42,12 @@ const Card = ({card, desk, ind, isShown , onClick}) => {
                 (isShown ? card.name : ind+1)
                  : ''}</h4> 
           
-            <img src={isShown ? `cards/${card.img}` 
+            <Suspense fallback={<div>Loading...</div>}>
+              <LazyImage src={isShown ? `cards/${card.img}` 
                                        : 'backs/greencardback.png'} 
-               onClick={onClick}
-               alt={card ? card.name : 'Placeholder'} />
+                         onClick={onClick}
+                         alt={card ? card.name : 'Placeholder'} />
+            </Suspense>
            
         </div>
         
